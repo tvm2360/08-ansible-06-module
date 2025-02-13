@@ -1,0 +1,5 @@
+---
+- name: Test text_file_creator module
+  hosts: localhost
+  roles:
+    - text_file_creator

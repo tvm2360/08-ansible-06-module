@@ -1,4 +1,4 @@
 /ansible
 **/ansible/*
 ansible*
-!*/ansible_collections/*
+!ansible_collections*

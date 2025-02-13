@@ -1,0 +1,201 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "site.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "54d6a515ba9324dfe2b154e58540efbac0354d0560b91805521631fbff2388b8",
+   "format": 1
+  },
+  {
+   "name": "meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "meta/runtime.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b7120b2e4c1fb414f2ceaf843ff02be924839d58911560c1f6658c63ca3581cb",
+   "format": 1
+  },
+  {
+   "name": "plugins",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/modules",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/text_file_creator.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "344a41433d5f44563bca4a359645a0b61b8835d1442dacd3dcb87ddb2d200ec7",
+   "format": 1
+  },
+  {
+   "name": "plugins/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e1ace7b1f177f35749523ce34721d2b1e1ad0b1e3196754f476a69730d24cb53",
+   "format": 1
+  },
+  {
+   "name": "docs",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1905817e7f39ba4b638c184607b9c53384e05a270756e0e5ac5653ba1daa6b72",
+   "format": 1
+  },
+  {
+   "name": "roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/text_file_creator",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/text_file_creator/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/text_file_creator/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0169c8051cc79d2eef8e43f1e7fe85928d6c6293d5ca35b524b2172d8175400a",
+   "format": 1
+  },
+  {
+   "name": "roles/text_file_creator/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/text_file_creator/tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "242e05cbbbf6360b753ecf13fee4fdac1b0b244a000c2eb9d845ae113e583d18",
+   "format": 1
+  },
+  {
+   "name": "roles/text_file_creator/tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0ff94a2f3ae5fa1b8dd2993ebf452fc0aa234e3b1e8260479e436ec456310557",
+   "format": 1
+  },
+  {
+   "name": "roles/text_file_creator/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/text_file_creator/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b6b75d36e634267047044022cca9d92695b112884f8c392fb78230d6039b4136",
+   "format": 1
+  },
+  {
+   "name": "roles/text_file_creator/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/text_file_creator/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fbf6a94cdc1721593db3350a0f9b14973231e82ab1246d2410e6e994f556f872",
+   "format": 1
+  },
+  {
+   "name": "roles/text_file_creator/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/text_file_creator/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/text_file_creator/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c5cadffb1633de36fd946948bd8ec530fd49958bdf6b65e6dff272d1cd862496",
+   "format": 1
+  },
+  {
+   "name": "roles/text_file_creator/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/text_file_creator/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dd8ffb33198168b1a8151af1425634d2c5aaae61f468089a95578f6e44937d18",
+   "format": 1
+  },
+  {
+   "name": "roles/text_file_creator/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/text_file_creator/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cc751d75266f757a38189f15d54e548dc87706f14a39756995c27b49eaca8a07",
+   "format": 1
+  }
+ ],
+ "format": 1
+}

@@ -1,0 +1,6 @@
+---
+# tasks file for text_file_creator
+- name: Call test_text_file_creator
+  text_file_creator:
+    path: /tmp/sepultura.txt
+    content: Ratamahatta

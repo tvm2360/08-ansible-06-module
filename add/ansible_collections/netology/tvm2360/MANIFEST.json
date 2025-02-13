@@ -1,0 +1,30 @@
+{
+ "collection_info": {
+  "namespace": "netology",
+  "name": "tvm2360",
+  "version": "1.0.0",
+  "authors": [
+   "tvm2360"
+  ],
+  "readme": "README.md",
+  "tags": [],
+  "description": "My collection",
+  "license": [
+   "MIT"
+  ],
+  "license_file": null,
+  "dependencies": {},
+  "repository": "http://example.com/repository",
+  "documentation": "http://docs.example.com",
+  "homepage": "http://example.com",
+  "issues": "http://example.com/issue/tracker"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "56c69a6f50a4bb37e84c6ff845f4fe949edc261f80e4bd9e145d6252a25e79ea",
+  "format": 1
+ },
+ "format": 1
+}
