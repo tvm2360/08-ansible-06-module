@@ -160,4 +160,27 @@ ansible-playbook site.yml
 
 12. Tag 1.0.0
 
+13. Collection build
+
+``` bash
+ansible-galaxy collection build
+```
+
+![Stage13](./pictures/Stage13.png)
+
+14,15. Установка collection
+
+``` bash
+ansible-galaxy collection install -p /opt/08-ansible-06-module/add netology-tvm2360-1.0.0.tar.gz
+```
+
+![Stage15](./pictures/Stage15.png)
+
+16. Test playbook
+
+``` bash
+ansible-playbook site.yml
+```
+
+![Stage16](./pictures/Stage16.png)
 
