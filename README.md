@@ -157,3 +157,7 @@ ansible-playbook site.yml
 ```
 
 ![Stage11](./pictures/Stage11.png)
+
+12. Tag 1.0.0
+
+
