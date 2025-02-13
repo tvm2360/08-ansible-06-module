@@ -65,7 +65,7 @@ def file_create_module():
         file_out.close
     except:
         result['file_created'] = False
-        module.fail_json( msg='Ошибка создания файла!', **result )
+        module.fail_json( msg='File creation error!', **result )
     module.exit_json(**result)
 
 def main():
