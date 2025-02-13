@@ -108,4 +108,31 @@ python -m ansible.modules.text_file_creator file.json
 
 ![Stage4_err](./pictures/Stage4_err.png)
 
+5. Single task playbook
+
+test_text_file_creator.yml:
+``` yml
+---
+- name: Test text_file_creator module
+  hosts: localhost
+  tasks:
+    - name: Call test_text_file_creator
+      text_file_creator:
+        path: /tmp/sepultura.txt
+        content: Ratamahatta
+```
+``` bash
+ansible-playbook test_text_file_creator.yml
+```
+
+![Stage5](./pictures/Stage5.png)
+
+
+6. Test
+
+``` bash
+ansible-playbook test_text_file_creator.yml --diff
+```
+
+![Stage6](./pictures/Stage6.png)
 
