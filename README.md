@@ -127,6 +127,9 @@ ansible-playbook test_text_file_creator.yml
 
 ![Stage5](./pictures/Stage5.png)
 
+Файл:
+
+![Stage5_1](./pictures/Stage5_1.png)
 
 6. Test
 
